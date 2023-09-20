@@ -19,30 +19,21 @@ Node.js and npm: Make sure you have Node.js and npm installed on your system.
 Getting Started
 Clone the repository to your local machine:
 
-bash
-Copy code
 git clone https://github.com/yourusername/real-time-chat-app.git
 Change directory to the project folder:
 
-bash
-Copy code
 cd real-time-chat-app
 Install the project dependencies:
 
-bash
-Copy code
 npm install
 Configure your Agora App ID:
 
 Open the App.vue file and replace the APP_ID constant with your Agora App ID:
 
-javascript
-Copy code
+
 const APP_ID = 'your-agora-app-id';
 Run the application:
 
-bash
-Copy code
 npm run serve
 Open your web browser and navigate to http://localhost:8080 to use the chat application.
 
